@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
 *{
   margin:0;
   padding:0;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
+li, a, button {
+  text-decoration: none;
+  
+}
 
+header{
+  display: flex;
+  justify-content: space-between; /* pushes the rightmost item in the header to the far right & pushes the leftmost item in the header to the far left */
+  align-items: center; /*aligns the nav items to the center*/
+  
+
+
+}
 
